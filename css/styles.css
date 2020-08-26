@@ -116,6 +116,7 @@ body {
   text-decoration: none;
   color: var(--description-header-link-color);
   letter-spacing: 0.02em;
+  line-height: 1.1429;
 }
 
 .nav-contacts-link:hover,
@@ -139,7 +140,7 @@ body {
 
   font-size: 44px;
   font-weight: 900;
-  line-height: 1.4;
+  line-height: 1.364;
   color: var(--main-color);
   letter-spacing: 0.06em;
   text-align: center;
@@ -208,6 +209,9 @@ padding-bottom: 94px;
 .occupation-title {
   margin-top: 0;
   margin-bottom: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: calc((100% - 3 * 14px) / 3);
 
   font-size: 36px;
   font-weight: 700;
@@ -246,7 +250,10 @@ padding-bottom: 94px;
 .team-title {
   margin-top: 0;
   margin-bottom: 50px;
-
+  margin-right: auto;
+  margin-left: auto;
+  max-width: calc((100% - 3 * 14px) / 3);
+  
   font-size: 36px;
   font-weight: 700;
   line-height: 1.17;
@@ -294,6 +301,7 @@ padding-bottom: 94px;
 
 .team-list-item-description {
   margin-top: 0;
+  margin-bottom: 0;
   
   font-weight: 400;
   font-size: 16px;
@@ -325,14 +333,13 @@ padding-bottom: 94px;
   width: 231px;
   font-style: normal;
   font-size: 14px;
-  line-height: 1.7;
+  line-height: 1.5;
 }
 
 
 .footer-contacts-link {
   margin-top: 9px;
   
-  font-size: 14px;
   font-weight: 400;
   text-decoration: none;
   color: var(--main-color);
@@ -350,12 +357,9 @@ padding-bottom: 94px;
   justify-content: center;
   align-items: flex-start;
   margin-bottom: 50px;  
-  
+  padding-bottom: 16px;  
 }
 
-.progects-type-item {
-padding-bottom: 16px;
-}
 
 .progects-type-item:not(:last-child){
   margin-right: 8px;
@@ -399,7 +403,7 @@ padding-bottom: 16px;
   margin-bottom: 30px;
   padding-bottom: 20px;
 
-  border: 1px solid var(--border-color);
+  /* border: 1px solid var(--border-color); */
 }
 
 .projects-list-item:nth-child(3n){
